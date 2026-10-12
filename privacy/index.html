@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية: وارد</title>
+<link rel="icon" href="../assets/wallet.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/legal.css">
+</head>
+<body>
+<main>
+<header class="brand"><img src="../assets/wallet.svg" alt=""><h1>سياسة الخصوصية لتطبيق «وارد»</h1></header>
+<section>
+<p class="meta">آخر تحديث: 12 أكتوبر 2026</p>
+
+    <p>
+      يساعد تطبيق <strong>وارد</strong> (الحزمة: <strong>com.quansoft.wared</strong>) أصحاب المحلات
+      على <strong>تتبّع المدفوعات الواردة</strong> من المحافظ الإلكترونية وتوزيعها على فروعهم، بحيث لا يُستخدم الإيداع
+      الواحد أكثر من مرة. توضّح هذه السياسة البيانات التي نتعامل معها ولماذا وكيف نحميها.
+    </p>
+
+    <h2>1) الأدوار في التطبيق</h2>
+    <ul>
+      <li><strong>مدير المحل</strong>: ينشئ حساب المحل ويحدّد الفروع والمصادر وقواعد الإخفاء والتوجيه.</li>
+      <li><strong>جهاز الاستقبال</strong>: جوال المدير الذي تصله رسائل الإيداع، ويتتبّع المدفوعات الواردة.</li>
+      <li><strong>موظف الفرع</strong>: يرى المدفوعات الموجّهة لفرعه ويعلّمها كمستخدمة.</li>
+    </ul>
+
+    <h2>2) البيانات التي نتعامل معها</h2>
+    <ul>
+      <li><strong>بيانات الحساب</strong>: الاسم والبريد الإلكتروني ومعرّف حساب Google عند تسجيل الدخول، واسم الجهاز.</li>
+      <li><strong>رسائل الإيداع</strong> (على جهاز الاستقبال فقط): اسم المرسل ونص الرسالة ووقت وصولها، وذلك
+        <strong>للمصادر التي يحدّدها المدير فقط</strong> (مثل محافظ جيب وجوالي).</li>
+      <li><strong>سجل الاستخدام</strong>: من علّم الإيداع كمستخدم، وفي أي فرع، ومتى، ورقم الفاتورة والملاحظة إن أُدخلت.</li>
+      <li><strong>بيانات الاشتراك</strong>: الخطة وتاريخ انتهائها، ومعرّف عملية الشراء عند الاشتراك عبر Google Play.</li>
+    </ul>
+
+    <h2>3) صلاحية قراءة الرسائل (RECEIVE_SMS)</h2>
+    <ul>
+      <li>تُطلب هذه الصلاحية <strong>على جهاز الاستقبال فقط</strong>، بعد شاشة توضيحية وموافقة صريحة من المستخدم.</li>
+      <li>تُفحص كل رسالة واردة <strong>على الجهاز نفسه</strong>: الرسائل التي لا تأتي من مصدر حدّده المدير
+        <strong>تُتجاهل فورًا ولا تُحفظ ولا تُرسل ولا تُسجَّل</strong>.</li>
+      <li>لا يقرأ التطبيق الرسائل القديمة، ولا يرسل أي رسالة من جوالك.</li>
+      <li>قبل أن يرى موظفو الفروع رسالة الإيداع تُخفى أجزاؤها الحساسة (مثل الرصيد ورقم الحساب) حسب قواعد المدير،
+        ويبقى النص الكامل مرئيًا لمدير المحل فقط.</li>
+    </ul>
+
+    <h2>4) كيف نستخدم البيانات</h2>
+    <ul>
+      <li>إظهار المدفوعات الواردة للفرع المعني لحظة وصولها.</li>
+      <li>منع استخدام الإيداع نفسه مرتين، وحفظ سجل لمن استخدمه ومتى.</li>
+      <li>تنبيه المدير إذا توقف جهاز الاستقبال عن العمل.</li>
+      <li>تطبيق حدود خطة الاشتراك (مثل عدد الرسائل اليومي).</li>
+      <li>إرسال إشعار للفرع أو للمدير عند وصول إيداع جديد، وللمدير إذا توقف جهاز الاستقبال. يحتوي الإشعار على النص المخفي فقط، ولا يظهر محتواه على شاشة القفل.</li>
+    </ul>
+    <p>لا نبيع البيانات ولا نستخدمها للإعلانات، ولا يحتوي التطبيق على أدوات تحليلات أو إعلانات.</p>
+
+    <h2>5) التخزين والمشاركة</h2>
+    <ul>
+      <li>تُخزَّن البيانات في خدمة <strong>Google Firebase (Cloud Firestore)</strong>، وتحميها قواعد وصول صارمة:
+        كل محل منفصل تمامًا عن غيره، ويرى كل عضو ما يسمح به دوره فقط.</li>
+      <li>تُستخدم <strong>Google Play Billing</strong> لمعالجة الاشتراكات المدفوعة؛ ولا نطّلع على بيانات بطاقتك.</li>
+      <li>يرى مشغّل المنصة بيانات الحساب وعدد الرسائل اليومي وحالة أجهزة الاستقبال لإدارة الاشتراكات والدعم، ولا يرى نصوص رسائل الإيداع.</li>
+      <li>لا نشارك البيانات مع أي طرف ثالث آخر.</li>
+    </ul>
+
+    <h2>6) الاحتفاظ والحذف</h2>
+    <ul>
+      <li>تُحذف رسائل الإيداع وسجلها بعد انتهاء مدة الاحتفاظ (<strong>90 يومًا</strong> افتراضيًا، ويختار المدير مدة من 30 إلى 365 يومًا). يتم الحذف عند فتح مدير المحل للتطبيق بعد انتهاء المدة.</li>
+      <li>تبقى الرسالة على جهاز الاستقبال فقط حتى يتم رفعها، ثم تُحذف منه.</li>
+      <li>يمكن للمدير إزالة أي عضو، ويمكنك طلب حذف حسابك وبياناتك: <a href="../delete/">طريقة طلب الحذف</a>.</li>
+    </ul>
+
+    <h2>7) حقوقك</h2>
+    <ul>
+      <li>يمكنك سحب صلاحية الرسائل في أي وقت من إعدادات النظام، فيتوقف التتبّع فورًا.</li>
+      <li>يمكنك تسجيل الخروج في أي وقت، فيتوقف الجهاز عن معالجة أي رسالة.</li>
+      <li>يمكنك طلب نسخة من بياناتك أو حذفها.</li>
+    </ul>
+
+    <h2>8) الأطفال</h2>
+    <p>التطبيق موجّه للأعمال التجارية، وليس للأطفال، ولا نجمع عن قصد بيانات أي طفل.</p>
+
+    <h2>9) التعديلات</h2>
+    <p>قد نحدّث هذه السياسة عند تغيير وظائف التطبيق، وننشر النسخة الجديدة مع تاريخ التحديث أعلاه.</p>
+
+    <h2>10) التواصل</h2>
+    <p class="note">
+      للاستفسارات المتعلقة بالخصوصية أو طلبات الحذف، راسلنا على: <a href="mailto:s4465106@gmail.com">s4465106@gmail.com</a>
+    </p>
+</section>
+
+<hr>
+<div class="en">
+<h1>Privacy policy: Wared</h1>
+<section>
+<p>Wared (<code>com.quansoft.wared</code>) helps shop owners track incoming e-wallet payments and route them to their branches, so that one deposit is never used twice.</p>
+<ul>
+  <li><b>Data:</b> your Google account name, email and ID, the device name, and, on the shop's receiving phone only, incoming SMS from wallet senders the shop admin chose. Messages from any other sender are ignored on the device and never stored, sent or logged.</li>
+  <li><b>Use:</b> showing each branch its payments, preventing double use with an audit trail, notifications, plan limits. No ads, no analytics, no selling of data.</li>
+  <li><b>Storage:</b> Google Firebase (Cloud Firestore) with strict per-shop access rules. Sensitive parts (balance, account number) are masked before branch staff see a message. Subscriptions are processed by Google Play Billing.</li>
+  <li><b>Retention:</b> payment messages are deleted after the shop's retention period (90 days by default, 30 to 365 days).</li>
+  <li><b>Your rights:</b> revoke the SMS permission or sign out at any time; request a copy or deletion of your data: <a href="../delete/">how to delete your data</a>.</li>
+  <li><b>Contact:</b> <a href="mailto:s4465106@gmail.com">s4465106@gmail.com</a></li>
+</ul>
+</section>
+</div>
+
+</main>
+</body>
+</html>
